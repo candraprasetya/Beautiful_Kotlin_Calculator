@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/firstT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="first number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textbox_style"
+        />
+
+    <EditText
+        android:id="@+id/secondT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="second number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textbox_style"
+        />
+
+<LinearLayout
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/putih"
+        android:textSize="20sp"
+        android:text="+"/>
+
+    <Button
+        android:id="@+id/kurang"
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/putih"
+        android:textSize="20sp"
+        android:text="-"/>
+
+    <Button
+        android:id="@+id/bagi"
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/putih"
+        android:textSize="20sp"
+        android:text="/"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/kali"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_style"
+            android:textColor="@color/putih"
+            android:textSize="20sp"
+            android:text="*"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="20sp"/>
+
+</LinearLayout>
